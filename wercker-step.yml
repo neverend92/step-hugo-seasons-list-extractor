@@ -1,11 +1,11 @@
 name: hugo-seasons-list-extractor
-version: 1.0.2
+version: 1.0.3
 description: Wercker Step which extracts the position and mark of an athlet from the european seasons list.
 properties:
   path:
     type: string
     required: true
-  name:
+  search_name:
     type: string
     required: true
   disciplines:
