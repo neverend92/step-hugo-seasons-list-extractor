@@ -20,4 +20,4 @@ NAME=${WERCKER_HUGO_SEASONS_LIST_EXTRACTOR_SEARCH_NAME}
 DISCIPLINES=${WERCKER_HUGO_SEASONS_LIST_EXTRACTOR_DISCIPLINES}
 OUTPUT_FILE=${WERCKER_HUGO_SEASONS_LIST_EXTRACTOR_OUTPUT_FILE}
 
-./hugo-seasons-list-extractor --path=${PATH} --name=${NAME} --disciplines=${DISCIPLINES} --outputFile=${OUTPUT_FILE}
+hugo-seasons-list-extractor --path=${PATH} --name=${NAME} --disciplines=${DISCIPLINES} --outputFile=${OUTPUT_FILE}
