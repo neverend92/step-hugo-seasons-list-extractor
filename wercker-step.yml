@@ -1,0 +1,16 @@
+name: hugo-seasons-list-extractor
+version: 1.0.0
+description: 
+properties:
+  path:
+    type: string
+    required: true
+  name:
+    type: string
+    required: true
+  disciplines:
+    type: string
+    required: true
+  output_file:
+    type: string
+    required: true
